@@ -1,6 +1,6 @@
 ﻿AUTHOR: Michał Plebañski
 
-TITTLE: fifth one-page project.
+TITTLE: Parallaxa
 
 TECHNOLOGIES USED: html5, css3, jQuery
 
