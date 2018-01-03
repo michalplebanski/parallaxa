@@ -1,0 +1,126 @@
+html {
+    height: 100%;
+}
+
+.container {
+    visibility: hidden;
+}
+
+.visibility {
+    visibility: visible;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    height: 100%;
+    display: none;
+}
+
+header {
+    background-color: #000;
+    padding: 10px 50px;
+}
+
+header nav {
+    float: right;
+    margin-right: -20px;
+}
+
+header nav li {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 30px;
+}
+
+header nav li a:hover {
+    background-color: #9e9696;
+}
+        
+footer {
+    background-color: #46494F;
+    color: #fff;
+    padding: 25px 50px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.parallax {
+    height: 800px;
+}
+
+.image1 {
+    background: url("http://www.visitnoosa.com.au/images/regions/Sunshine-Beach-sunrise-surfers-lowres-@_markfitz-950X635.jpg") fixed 100%;   
+    background-size: cover;
+}
+
+.image2 {
+    background: url("http://www.youramazingplaces.com/wp-content/uploads/2013/08/hd_wallpaper_84-620x465.jpg") fixed 100%;
+    background-size: cover;
+}
+
+.image3 {
+    background: url("https://cdn.slidesharecdn.com/ss_thumbnails/beautiful-nature-and-sunshine-1222010633549732-9-thumbnail-4.jpg?cb=1226712022") fixed 100%;   
+    background-size: cover;
+}
+
+.image4 {
+    background: url("http://cliparts.co/cliparts/Lid/5A7/Lid5A7AdT.jpg") fixed 100%;   
+    background-size: cover;
+}
+
+.text {
+    background-color: #fff;
+}
+        
+.text .container {
+    max-width: 1170px;
+    padding: 20px 20px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.text .icon-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 50%;
+    bottom: 0;
+}
+
+.text .icon-right {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+      
+.text .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+}
+            
+.text .content-right {
+    margin-left: 50%;
+}
+
+.text .content-left {
+    margin-right: 50%;
+}
+
+.text h2 {
+    font-size: 36px;
+    font-weight: normal;
+}
